@@ -21,7 +21,7 @@
 #![deny(unused_must_use)]
 #![forbid(unsafe_code)]
 
-extern crate bitcoin;
+pub extern crate bitcoin;
 extern crate crypto;
 #[cfg(test)]
 extern crate hex;
